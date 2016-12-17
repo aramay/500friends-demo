@@ -17,3 +17,14 @@ function (error, response, body) {
         console.log("response body ", body);
     }
 });
+
+
+/*
+
+{
+  "success": true,
+  "data": {
+    "points": 10
+  }
+}
+*/
