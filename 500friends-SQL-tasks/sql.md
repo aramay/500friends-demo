@@ -22,7 +22,7 @@ and 11:59pm Pacific November 5 that were any customer’s first purchase (NOTE: 
 
 3. Get the balance and sum of points_remaining for each customer in account_id 186 who has points expiring in December.
 
-    SELECT rs_production_customers.balance, rs_production_events.points_value
+    SELECT rs_production_customers.balance, SUM(rs_production_events.points_value)
 
 
     from rs_production_customers JOIN rs_production_events
