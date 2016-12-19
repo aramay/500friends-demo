@@ -5,7 +5,8 @@ var request = require("request");
 request({
     url: "http://loyalty-stage.500friends.com/api/enroll.json",
     //Query string
-    qs: {email: "test2@test.com", uuid: "GwMlFcW6sZaOQwR", type: "purchase", value: 125, event_id: "??"}
+    // qs: {email: "test2@test.com", uuid: "GwMlFcW6sZaOQwR", type: "purchase", value: 125, event_id: "??"}
+    qs: {email: "test2@test.com", uuid: "GwMlFcW6sZaOQwR", channel: "web"}
 
 },
 
